@@ -1,0 +1,72 @@
+body{
+  background-image: url(background.jpg);
+  background-size: cover;
+}
+.contenitore{
+  width: 65%;
+  height: 850px;
+  margin: auto;
+  margin-top: 60px;
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 3%;
+}
+header{
+  text-align: center;
+  padding-top: 8%;
+  color: #00ea38;
+}
+header>img{
+  width: 20%;
+}
+menu{
+  background-color: #00ea38;
+  text-align: center;
+  height: 6%;
+  margin-right: 10%;
+  margin-left: 10%;
+}
+menu>div{
+  padding-top: 1.5%;
+}
+main>section{
+  margin-left: 10%;
+  text-align: left;
+  color: white;
+  margin-bottom: 20px;
+}
+.square:before{
+  content: "\25A0";
+  color: white;
+}
+.arrow:before{
+  content: "\21A3";
+  color: white;
+}
+section>span{
+  display: block;
+  margin-bottom: 0.5%;
+}
+section>span:first-child{
+  font-size: 25px;
+}
+div>span{
+  opacity: 0;
+}
+#Fcharge{
+  background-color: #eaa800;
+  width: 40%;
+  height: 30px;
+  border-radius: 7%;
+}
+#Scharge{
+  background-color: #0fcb03;
+  width: 70%;
+  height: 30px;
+  border-radius: 7%;
+}
+#Tcharge{
+  background-color: #d33e0f;
+  width: 15%;
+  height: 30px;
+  border-radius: 7%;
+}
